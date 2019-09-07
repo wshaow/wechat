@@ -56,13 +56,13 @@ h6 {
 
 
 h3{/*增加对h3标题的修改*/
-   border-bottom:2px  solid   rgb(239,112,96);
+   border-bottom:2px  solid   rgb(50,50,50);
    font-size: 1.3em;
 }
 h3 span{/*增加对h3标题字体的修改*/
   display:inline-block;
   font-weight:normal;
-  background:rgb(239,112,96);
+  background:rgb(50,50,50);
   color:#ffffff;
   padding:3px 10px 1px;
   border-top-right-radius: 3px; 
@@ -78,13 +78,13 @@ h3:after{/*增加对h3标题后面的修饰*/
 }
 
 h4{/*增加对h3标题的修改*/
-   border-bottom:2px  solid   rgb(200,112,96);
+   border-bottom:2px  solid   rgb(50,50,50);
    font-size: 1.1em;
 }
 h4 span{/*增加对h3标题字体的修改*/
   display:inline-block;
   font-weight:normal;
-  background:rgb(200,112,96);
+  background:rgb(50,50,50);
   color:#ffffff;
   padding:3px 10px 1px;
   border-top-right-radius: 3px; 
