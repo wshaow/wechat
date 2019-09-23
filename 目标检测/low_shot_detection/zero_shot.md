@@ -69,3 +69,10 @@ $${\hat y}_i = \mathop{\arg\max}_{j \in {\cal U}} S_{ij}$$
 1）识别结果的分级关系，比如把猫识别成了动物。你不能完全说这个是错的。
 
 2）新目标的bounding box回归需要更加精确。
+
+
+
+更多关于编程和机器学习资料请关注FlyAI公众号。
+![公众号二维码][1]
+
+[1]: http://pwfic6399.bkt.clouddn.com/wechat/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg
