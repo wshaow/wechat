@@ -382,20 +382,6 @@ if torch.cuda.is_available():
 
 
 
-### tensor常见的数学转换和数学函数（随时更新）
-
-
-
-
-
-
-
-
-
-
-
-**To be continue . . .**
-
 
 
 更多关于编程和机器学习资料请关注FlyAI公众号。

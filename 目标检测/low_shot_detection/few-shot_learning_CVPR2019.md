@@ -137,5 +137,21 @@ a local descriptor based image-to-class measure ：个人理解是经过处理�
 
 ## Meta-learning methods
 
-###  [**Meta-Learning with Differentiable Convex Optimization**](https://arxiv.org/abs/1904.03758) 
+###  [Meta-Learning with Differentiable Convex Optimization](https://arxiv.org/abs/1904.03758) 
+
+作者：Kwonjoon Lee 亚马逊
+
+可微分凸优化 Meta Learning, 这篇文章数学概念和推导比较多。
+
+
+
+###   [Edge-Labeling Graph Neural Network for Few-shot Learning](https://arxiv.org/abs/1905.01436)  （这篇应该属于embedding）
+
+作者：Jongmin Kim 韩国
+
+这篇论文是在Graph Neural Network，所以可以先看一下GNN
+
+
+
+###  [Task Agnostic Meta-Learning for Few-Shot Learning](https://arxiv.org/abs/1805.07722)
 
