@@ -23,7 +23,7 @@
 
 2、框架
 
-![architecture](http://pwfic6399.bkt.clouddn.com/wechat/object_detection/LSTD_architecture.png)
+![architecture](http://wshaow.club/wechat/object_detection/LSTD_architecture.png)
 
 
 
@@ -73,14 +73,14 @@
 
 
 
-![正则化](http://pwfic6399.bkt.clouddn.com/wechat/object_detection/LSDT_figure2.png)
+![正则化](http://wshaow.club/wechat/object_detection/LSDT_figure2.png)
 
 
 
 更多关于编程和机器学习资料请关注FlyAI公众号。
 ![公众号二维码][1]
 
-[1]: http://pwfic6399.bkt.clouddn.com/wechat/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg
+[1]: http://wshaow.club/wechat/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg
 
 
 

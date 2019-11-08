@@ -12,7 +12,7 @@
 
 #### 1、Baseline ZSD Model
 
-![zero_shot](http://pwfic6399.bkt.clouddn.com/paper/zero_shot.PNG?imageView2/0/q/75|watermark/2/text/d3NoYW93/font/YXJpYWw=/fontsize/400/fill/I0NBQkFDQQ==/dissolve/73/gravity/SouthEast/dx/10/dy/10|imageslim)
+![zero_shot](http://wshaow.club/paper/zero_shot.PNG?imageView2/0/q/75|watermark/2/text/d3NoYW93/font/YXJpYWw=/fontsize/400/fill/I0NBQkFDQQ==/dissolve/73/gravity/SouthEast/dx/10/dy/10|imageslim)
 
 从整张图片上提取obejctness proposal regions.将这些regions wrap到224*224大小，经过特征提取backbone (论文中使用的Inception-Resnet v2)获得的图像特征。将这些图像特征映射到300维的语义特征空间。通过相似性比较策略获得预测的类别。(根据作者的描述，这里用的方法应该是SAE方法)
 
@@ -38,7 +38,7 @@ $${\hat y}_i = \mathop{\arg\max}_{j \in {\cal U}} S_{ij}$$
 
 因为背景可能包含未知类别猜想隐含数，基于观测的数据和猜测的隐含数一起最大化似然函数。之后重复这个过程，这就是EM的思路。作者的做法是：构建了一个不包含seen和unseen类别的单词列表C，先使用baseline ZSD方法预测一些背景的类别，给部分背景框加上标签后添加到数据集中进行下一轮的训练。这样重复五次得到最终的结果。
 
-![bg算法](http://pwfic6399.bkt.clouddn.com/paper/bg_suanfa.PNG?imageView2/0/q/75|watermark/2/text/d3NoYW93/font/YXJpYWw=/fontsize/400/fill/I0NBQkFDQQ==/dissolve/73/gravity/SouthEast/dx/10/dy/10|imageslim)
+![bg算法](http://wshaow.club/paper/bg_suanfa.PNG?imageView2/0/q/75|watermark/2/text/d3NoYW93/font/YXJpYWw=/fontsize/400/fill/I0NBQkFDQQ==/dissolve/73/gravity/SouthEast/dx/10/dy/10|imageslim)
 
 #### 3、Densely Sampled Embedding Space
 
@@ -52,7 +52,7 @@ $${\hat y}_i = \mathop{\arg\max}_{j \in {\cal U}} S_{ij}$$
 
 1） 定性评估
 
-![](http://pwfic6399.bkt.clouddn.com/paper/zero_shot_shijueeva.PNG)
+![](http://wshaow.club/paper/zero_shot_shijueeva.PNG)
 
 2） 定量评估
 
@@ -75,4 +75,4 @@ $${\hat y}_i = \mathop{\arg\max}_{j \in {\cal U}} S_{ij}$$
 更多关于编程和机器学习资料请关注FlyAI公众号。
 ![公众号二维码][1]
 
-[1]: http://pwfic6399.bkt.clouddn.com/wechat/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg
+[1]: http://wshaow.club/wechat/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg

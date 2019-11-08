@@ -2,6 +2,10 @@
 
 ## Metric learning methods
 
+### Siamese neural networks for one-shot image recognition
+
+
+
 ### [Revisiting Local Descriptor based Image-to-Class Measure for Few-shot Learning](https://arxiv.org/abs/1903.12290)
 作者：南京大学 李文斌 R&L Group
 
@@ -17,7 +21,7 @@ a local descriptor based image-to-class measure ：个人理解是经过处理�
 
 作者说现在普遍的分类都是基于第一类，但是在few shot的情况下，使用第二种能更好的利用样本中的信息。（实验的讨论部分设计实验进行了验证）
 
-> building upon the recent episodic training mechanism, we propose a Deep Nearest Neighbor Neural Network (DN4 in short) and train it in an end-to-end manner. Its key difference from the literature is the replacement of the image-level feature based measure in the final layer by a local descriptor based image-to-class measure. This measure is conducted online via a k-nearest neighbor search over the deep local descriptors of convolutional feature maps.
+> Building upon the recent episodic training mechanism, we propose a Deep Nearest Neighbor Neural Network (DN4 in short) and train it in an end-to-end manner. Its key difference from the literature is the replacement of the image-level feature based measure in the final layer by a local descriptor based image-to-class measure. This measure is conducted online via a k-nearest neighbor search over the deep local descriptors of convolutional feature maps.
 
 就是将最后一层的image-level feature based measure 替换为了local descriptor based image-to-class measure使用KNN来搜索。
 
@@ -95,7 +99,7 @@ a local descriptor based image-to-class measure ：个人理解是经过处理�
 
 
 
-![问题公式化描述](http://wshaow.club/paper/2019-10-13_13-45-47.jpg-water_mark)
+![问题公式化描述](http://wshaow.club/paper/dci-math.jpg-water_mark)
 
 
 
@@ -135,7 +139,11 @@ a local descriptor based image-to-class measure ：个人理解是经过处理�
 >
 > [原文链接](https://blog.csdn.net/a312863063/article/details/91127505)
 
+
+
 ## Meta-learning methods
+
+
 
 ###  [Meta-Learning with Differentiable Convex Optimization](https://arxiv.org/abs/1904.03758) 
 
@@ -154,4 +162,46 @@ a local descriptor based image-to-class measure ：个人理解是经过处理�
 
 
 ###  [Task Agnostic Meta-Learning for Few-Shot Learning](https://arxiv.org/abs/1805.07722)
+
+
+
+### [Meta networks](https://zhuanlan.zhihu.com/p/42706477)
+
+
+
+### Matching networks for one shot learning
+
+
+
+### Meta-learning with memory-augmented neural networks
+
+
+
+### Memory-based parameter adaptation
+
+
+
+
+
+## Data generation
+
+Low-shot visual recognition by shrinking and hallucinating features
+
+
+
+Data augmentation generative adversarial networks
+
+
+
+Low-shot learning from imaginary data
+
+
+
+## reference
+
+[Meta Networks](https://cloud.tencent.com/developer/news/295167)
+
+[Meta-Learning论文笔记：Meta Network](https://zhuanlan.zhihu.com/p/66884855)
+
+ [Automatic Machine Learning: Methods, Systems, Challenges](https://link.zhihu.com/?target=https%3A//www.automl.org/book/) 
 

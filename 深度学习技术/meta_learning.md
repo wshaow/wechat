@@ -38,6 +38,23 @@
 
 
 
+### 论文
+
+#### [ Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks ]( https://arxiv.org/pdf/1703.03400.pdf )
+
+作者： Chelsea Finn  加州大学伯克利分校
+
+**contributions：** A simple model and task-agnostic algorithm for meta-learning that trains a model’s parameters such that a small number of gradient updates will lead to fast learning on a new task. 
+
+ **Problem Set-Up** ：
+
 ## reference
 
 [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html)
+
+[meta learning](https://www.chainnews.com/articles/023205795025.htm)这篇终于讲了我比较在意的训练样本的拆分了
+
+[Model-Agnostic Meta-Learning （MAML）模型介绍及算法详解](https://zhuanlan.zhihu.com/p/57864886) 对MAML以及其训练过程解释的比较详细
+
+
+
